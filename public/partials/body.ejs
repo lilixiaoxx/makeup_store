@@ -1,0 +1,36 @@
+ <div class="card-container">
+          <% products.forEach(function(product) { %>
+           <div class="card">
+             <img class="card-img-top" src="<%= product.url[0] %>" alt="Card image cap">
+             <div class="card-block">
+              <h4 class="card-title"><%= product.name %></h4>
+              <h4 class="card-text">Effect: </h4>
+                <div class="bd-example">
+                  <button type="submit" class="btn btn-2 btn-2g" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Details</button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <h2 class="modal-title" id="exampleModalLabel">Product Detail</h2>
+                        </div>
+                        <div class="modal-body">
+                          <h3 class="card-text">Product Name:</h3>
+                          <h6 class="card-text"><%= product.name%></h6>
+                          <h3 class="card-text">Ingredient:</h3>
+                          <p class="card-text"><%= product.ingredient %></p>
+                          <h3 class="card-text">User Type:</h3>
+                          <h6 class="card-text"><%= product.goodfor_typeofpeople %></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <p class="card-text"><%= product.effect %></p>
+             </div>
+           </div>
+           <% }) %>
+      </div>
+    </div>

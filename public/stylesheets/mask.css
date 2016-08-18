@@ -1,0 +1,45 @@
+body {
+  padding-top: 55px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background:#FD3E81;*/
+  background-image: url("https://t3.ftcdn.net/jpg/00/98/44/06/500_F_98440614_72BqusEAuypSZu1keNPl9rXzpiQNqUro.jpg");
+}
+
+.navbar-toggler{
+  color: white;
+}
+.navbar {min-height: 55px;}
+
+.card{
+  max-width: 20rem;
+  border: 1px solid rgba(0,0,0,1);
+  display: inline-block;
+  min-height: 450px;
+  vertical-align: top;
+  text-align: left;
+  background-color:#FCEADE;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card-container{
+  text-align: center;
+}
+
+.container h1{
+  font-size: 120px;
+  font-family: 'Risque', cursive;
+  color: #23001E;
+  text-shadow: 1px 0px #eee, 0px 1px #ccc,
+               2px 1px #eee, 1px 2px #ccc,
+               3px 2px #eee, 2px 3px #ccc,
+               4px 3px #eee, 3px 4px #ccc,
+               5px 4px #eee, 4px 5px #ccc,
+               6px 5px #eee, 5px 6px #ccc,
+               7px 6px #eee, 6px 7px #ccc,
+               8px 7px #eee, 7px 8px #ccc,
+               8px 8px #eee;
+  text-align: center;
+}
