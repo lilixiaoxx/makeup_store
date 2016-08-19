@@ -6,7 +6,7 @@
 <p>This web application is designed for girls who want to find a right makeup products base on their skin type.</p>
 
 <h2>Wireframe</h2>
-<img src="public/images/wireframe.jpg" width:80%>
+<img src="public/images/wireframe.jpg">
 
 <h2>Problem to solve:</h2>
 <p>Allow user to see all kinds of different from database. View the detils of each products and submit a question form if they have question.</p>
